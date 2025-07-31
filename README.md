@@ -1,4 +1,4 @@
-# Cloud Security Scout 🛡
+# Cloud Security Scout
 
 **Cloud Security Scout** is a serverless Python tool for automated security auditing of your AWS environment. It runs as an AWS Lambda function, periodically scanning for common security misconfigurations across various services. Findings are classified by severity, stored in Amazon DynamoDB for tracking, and sent as alerts via Amazon SNS.
 
