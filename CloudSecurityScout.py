@@ -4,7 +4,7 @@ import json
 import uuid
 
 DYNAMODB_TABLE = 'CloudSecurityScoutResults'
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:ACCOUNT-ID:SecurityAlerts'
+SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:251425313553:SecurityAlerts'
 
 def get_regions():
     return ['ap-south-1', 'us-east-1']
